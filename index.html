@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библио Глобус - Туристическое агентство</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://same-assets.com/biblio-globus/favicon.ico">
+</head>
+<body>
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-contacts">
+                <span>📞 8 (495) 781-81-77</span>
+                <span>📧 info@biblioglobus.ru</span>
+                <span>🕒 Пн-Пт: 10:00-19:00, Сб-Вс: 11:00-17:00</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="https://same-assets.com/biblio-globus/logo.png" alt="Библио Глобус" class="logo">
+                    <div class="company-info">
+                        <h1>Библио Глобус</h1>
+                        <p>Туристическое агентство</p>
+                    </div>
+                </div>
+                <div class="header-phones">
+                    <div class="phone-item">
+                        <span class="phone-label">Москва:</span>
+                        <span class="phone-number">8 (495) 781-81-77</span>
+                    </div>
+                    <div class="phone-item">
+                        <span class="phone-label">Регионы:</span>
+                        <span class="phone-number">8 (800) 100-45-15</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active">Главная</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Туры <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#">Пляжный отдых</a>
+                        <a href="#">Экскурсионные туры</a>
+                        <a href="#">Горнолыжные туры</a>
+                        <a href="#">Автобусные туры</a>
+                    </div>
+                </li>
+                <li><a href="#" class="nav-link">Отели</a></li>
+                <li><a href="#" class="nav-link">Авиабилеты</a></li>
+                <li><a href="#" class="nav-link">Страхование</a></li>
+                <li><a href="#" class="nav-link">Контакты</a></li>
+                <li><a href="#" class="nav-link">О компании</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div class="content-wrapper">
+
+                <!-- Search Form -->
+                <section class="search-section">
+                    <div class="search-form">
+                        <h2>Поиск туров</h2>
+                        <form class="tour-search">
+                            <div class="search-row">
+                                <div class="form-group">
+                                    <label>Направление</label>
+                                    <select name="destination">
+                                        <option value="">Выберите направление</option>
+                                        <option value="turkey">Турция</option>
+                                        <option value="egypt">Египет</option>
+                                        <option value="uae">ОАЭ</option>
+                                        <option value="greece">Греция</option>
+                                        <option value="cyprus">Кипр</option>
+                                        <option value="spain">Испания</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Отель</label>
+                                    <select name="hotel">
+                                        <option value="">Любой отель</option>
+                                        <option value="3star">3 звезды</option>
+                                        <option value="4star">4 звезды</option>
+                                        <option value="5star">5 звезд</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Питание</label>
+                                    <select name="meal">
+                                        <option value="">Любое питание</option>
+                                        <option value="bb">BB (завтрак)</option>
+                                        <option value="hb">HB (полупансион)</option>
+                                        <option value="fb">FB (полный пансион)</option>
+                                        <option value="ai">AI (все включено)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="search-row">
+                                <div class="form-group">
+                                    <label>Дата вылета</label>
+                                    <input type="date" name="departure_date">
+                                </div>
+                                <div class="form-group">
+                                    <label>Ночей</label>
+                                    <select name="nights">
+                                        <option value="">Количество ночей</option>
+                                        <option value="7">7 ночей</option>
+                                        <option value="10">10 ночей</option>
+                                        <option value="14">14 ночей</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Туристы</label>
+                                    <select name="tourists">
+                                        <option value="2">2 взрослых</option>
+                                        <option value="1">1 взрослый</option>
+                                        <option value="3">3 взрослых</option>
+                                        <option value="4">4 взрослых</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="search-btn">Найти туры</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+
+                <div class="main-content">
+                    <!-- Left Sidebar with Dubai Promo -->
+                    <aside class="left-sidebar">
+                        <div class="dubai-promo">
+                            <div class="promo-image">
+                                <img src="https://same-assets.com/biblio-globus/dubai-promo.jpg" alt="DUBAI">
+                            </div>
+                            <div class="promo-content">
+                                <h3>DUBAI</h3>
+                                <p>Невероятные цены на туры в Дубай!</p>
+                                <div class="promo-price">от 45 000 ₽</div>
+                                <button class="promo-btn">Подробнее</button>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <!-- Center Content with Tour Cards -->
+                    <section class="center-content">
+                        <h2>Популярные направления</h2>
+                        <div class="tours-grid" id="toursGrid">
+                            <!-- Tour cards will be generated by JavaScript -->
+                        </div>
+                    </section>
+
+                    <!-- Right Sidebar with Statistics -->
+                    <aside class="right-sidebar">
+                        <div class="stats-widget">
+                            <h3>Статистика</h3>
+                            <div class="stat-item">
+                                <span class="stat-number">156 789</span>
+                                <span class="stat-label">Довольных туристов</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">24</span>
+                                <span class="stat-label">Года на рынке</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">89</span>
+                                <span class="stat-label">Стран мира</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2 456</span>
+                                <span class="stat-label">Туров в неделю</span>
+                            </div>
+                        </div>
+
+                        <div class="latest-tours">
+                            <h3>Последние туры</h3>
+                            <div class="tour-item">
+                                <img src="https://same-assets.com/biblio-globus/turkey-small.jpg" alt="Турция">
+                                <div class="tour-info">
+                                    <h4>Турция, Анталья</h4>
+                                    <p>7 ночей, AI</p>
+                                    <span class="price">от 35 000 ₽</span>
+                                </div>
+                            </div>
+                            <div class="tour-item">
+                                <img src="https://same-assets.com/biblio-globus/egypt-small.jpg" alt="Египет">
+                                <div class="tour-info">
+                                    <h4>Египет, Хургада</h4>
+                                    <p>10 ночей, AI</p>
+                                    <span class="price">от 42 000 ₽</span>
+                                </div>
+                            </div>
+                            <div class="tour-item">
+                                <img src="https://same-assets.com/biblio-globus/uae-small.jpg" alt="ОАЭ">
+                                <div class="tour-info">
+                                    <h4>ОАЭ, Дубай</h4>
+                                    <p>7 ночей, BB</p>
+                                    <span class="price">от 55 000 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>О компании</h4>
+                    <ul>
+                        <li><a href="#">История</a></li>
+                        <li><a href="#">Лицензии</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Партнеры</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#">Туры</a></li>
+                        <li><a href="#">Отели</a></li>
+                        <li><a href="#">Авиабилеты</a></li>
+                        <li><a href="#">Страхование</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Поддержка</h4>
+                    <ul>
+                        <li><a href="#">Помощь</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>📞 8 (495) 781-81-77</p>
+                    <p>📧 info@biblioglobus.ru</p>
+                    <p>📍 Москва, ул. Тверская, 12</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Библио Глобус. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
